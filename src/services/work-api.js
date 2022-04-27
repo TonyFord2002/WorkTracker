@@ -1,5 +1,5 @@
 import axios from 'axios'
-const url = 'http://localhost:3001/'
+const url = 'http://localhost:3001/workapp/'
 
 export function getJobs(){
     const response = axios.get(url)
