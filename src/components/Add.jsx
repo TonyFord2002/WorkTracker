@@ -1,15 +1,14 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom'
-import {createJob} from '../services/work-api'
+import {createJobsite} from '../services/work-api'
 
 function Add() {
   const nav = useNavigate()
 
   const addJobsite = (event)=>{
       event.preventDefault()
-      let add = { name: event.target.name.value
-              }
-      createJob(add)
+      let add = { name: event.target.name.value}
+      createJobsite(add)
       nav('/')
   }
 

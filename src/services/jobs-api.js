@@ -1,27 +1,27 @@
 import axios from 'axios'
-const url = 'http://localhost:3001/worker/'
+const url = 'http://localhost:3001/job/'
 
-export function getWorkers(){
-    const response = axios.get(url)
+export function getJobs(id){
+    const response = axios.get(url+'/jobsiteid/'+id)
     return response
 }
 
-export function getWorker(id){
+export const getJob = (id)=>{
     const response = axios.get(url+id)
     return response
 }
 
-export function deleteWorker(id){
+export function deleteJob(id){
     const response = axios.delete(url+id)
     return response
 }
 
-export function createWorker(add){
+export function createJob(add){
     const response = axios.post(url, add)
     return response
 }
 
-export function editWorker(id, edit){
+export const editJob = (id, edit)=>{
     const response = axios.put(url+id, edit)
     return response
 }

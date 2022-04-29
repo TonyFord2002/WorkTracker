@@ -1,22 +1,22 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
-import {getJobs} from '../services/work-api'
+import {getJobsites} from '../services/work-api'
 
 function Index() {
   const [jobsite, setJobsite] = useState([])
 
   useEffect(()=>{
-    getJobs()
+    getJobsites()
     .then((res)=>setJobsite(res.data))
   },[])
 
   return (
     <div id='container'>
         <div id='jobs'>
-          {jobsite.map((job, i)=>{
+          {jobsite.map((jobname, i)=>{
             return(
               <div id='job' key={i} >
-                <h2><a href = {`/${job._id}`}>{job.name}</a></h2>
+                <h2><a href = {`/${jobname._id}`}>{jobname.name}</a></h2>
               </div>
             )
           })}
