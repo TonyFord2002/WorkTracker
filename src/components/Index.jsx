@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
-import {getJobsites} from '../services/work-api'
+import {getJobsites} from '../services/jobsite-api'
 
 function Index() {
   const [jobsite, setJobsite] = useState([])
@@ -12,15 +12,16 @@ function Index() {
 
   return (
     <div id='container'>
-        <div id='jobs'>
+      <img style={{height:'250px'}}src = '../FordServices.png'/>
+        <div id='jobsite'>
           {jobsite.map((jobname, i)=>{
             return(
               <div id='job' key={i} >
-                <h2><a href = {`/${jobname._id}`}>{jobname.name}</a></h2>
+                <h2><a id='link' href = {`/${jobname._id}`}>{jobname.name}</a></h2>
               </div>
             )
           })}
-        </div>     
+        </div>
     </div>
   )
 }

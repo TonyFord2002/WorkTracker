@@ -1,6 +1,6 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom'
-import {createJobsite} from '../services/work-api'
+import {createJobsite} from '../services/jobsite-api'
 
 function Add() {
   const nav = useNavigate()

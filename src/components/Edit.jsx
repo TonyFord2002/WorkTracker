@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from 'react'
 import {useNavigate, useParams} from 'react-router-dom'
-import { editJob , getJob, deleteJob} from '../services/jobs-api'
+import { editJob , getJob, deleteJob} from '../services/job-api'
 
 function Edit() {
   const [data, setData] = useState({})

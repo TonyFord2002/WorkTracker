@@ -12,8 +12,8 @@ function App() {
     <div className="App">
     <Router>
       <nav id ='nav'>
-        <Link to = '/'>Home</Link><br/>
-        <Link to = '/add'>Add A New Jobsite</Link>
+        <Link id='link' to = '/'>Home</Link><br/>
+        <Link id='link' to = '/add'>Add A New Jobsite</Link>
       </nav>
       <Routes>
         <Route path = '/' element={<Index/>}></Route>
