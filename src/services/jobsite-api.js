@@ -1,5 +1,5 @@
 import axios from 'axios'
-const url = 'http://localhost:3001/jobsite/'
+const url = 'https://worktracker-api.herokuapp.com/jobsite/'
 
 export function getJobsites(){
     const response = axios.get(url)
