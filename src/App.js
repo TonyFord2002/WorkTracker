@@ -7,6 +7,7 @@ import Show from './components/Show'
 import Edit from './components/Edit'
 import EditWorker from './components/EditWorker'
 import EditJobsite from './components/EditJobsite'
+import ScrollButton from './components/ScrollButton'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path = '/:id/EditWorker' element={<EditWorker/>}></Route>
         <Route path = '/:id/EditJobsite' element={<EditJobsite/>}></Route>
       </Routes>
+      <ScrollButton/>
     </Router>
     </div>
   )
