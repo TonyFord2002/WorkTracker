@@ -11,7 +11,7 @@ export const getJobsite = (id)=>{
     return response
 }
 
-export function deleteJobite(id){
+export function deleteJobsite(id){
     const response = axios.delete(url+id)
     return response
 }

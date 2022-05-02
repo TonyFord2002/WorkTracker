@@ -12,7 +12,7 @@ function Index() {
 
   return (
     <div id='container'>
-      <img style={{height:'250px'}}src = '../FordServices.png'/>
+      <img id ='ford' style={{height:'300px'}}src = '../FordServices.png'/>
         <div id='jobsite'>
           {jobsite.map((jobname, i)=>{
             return(

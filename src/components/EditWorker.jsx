@@ -34,7 +34,7 @@ return (
       Name: <input type='text' name='name' defaultValue={data.name}/><br/>
       Rate:<input type='text' name='rate' defaultValue={data.rate} size='50'/><br/>
       Hours: <input type='text' name='hours' defaultValue={data.hours}/>
-      <input type='submit' value='Edit Worker'/>
+      <input style={{borderRadius:'7px' }} type='submit' value='Edit Worker'/>
   </form>
   <button style={{borderRadius:'7px' }} onClick={deleteThisWorker}> Delete this worker</button><br/>
   </div>

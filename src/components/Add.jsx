@@ -17,7 +17,7 @@ function Add() {
       <h1>Add A New Jobsite</h1>
         <form onSubmit={addJobsite}>
           Jobsite Name: <input type='text' name='name'/><br/>
-          <input type='submit' value='Add Jobsite'/>
+          <input style={{borderRadius:'7px' }} type='submit' value='Add Jobsite'/>
         </form>
     </div>
   )

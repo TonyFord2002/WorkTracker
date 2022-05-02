@@ -1,6 +1,74 @@
-body{background-color: #479829}
+/* Index */
+body{background-color: #20720D;}
 
-#nav{background-color:#20720D;
-    color:#FDE100}
+#nav{background-color:#FDE100;}
 
-#link{color: #FDE100}
+#navlink{color: black;
+        font-size: 20px;
+        font-weight: bold;}
+
+#link{color:#FDE100}
+
+#container{margin: auto;
+        text-align: center}
+
+#ford{border: 20px inset gray;        
+        margin-top: 30px;}
+
+#jobsite{display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: x-large;
+        text-shadow: 5px 2px black;}
+
+
+/* Show */
+#nameandbutton{ white-space: nowrap;
+                text-align: center;
+                display: inline;}
+
+#jobname{
+        text-align: center;
+        font-size: 40px;
+        color: #FDE100;
+        text-shadow: 5px 2px black;
+        font-weight: bold;
+        text-decoration: underline;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+            
+#title{font-size: 30px;
+        font-weight: bold;
+        text-decoration: underline;}
+
+#alljobs{background-image: linear-gradient(to bottom right, #20720D,#FDE100);
+        border: 10px ridge #FDE100;
+        margin: 70px;
+        padding-left: 60px}
+
+#desc{font-size: 20px}
+#cost{font-size: 20px}
+#image{height: 150px}
+
+#worker{z-index: 9;
+        padding-left: 70%;
+        margin-top: -178px;}
+
+#jobform{margin: 30px;
+        text-align: center;
+}
+
+#workerform{text-align: justify;}
+
+#total{font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 75%;
+    border: 10px ridge #479829;
+    background-color: #FDE100;
+    padding: 10px;
+}
+
+#person{font-size: 20px;}
+#rate{font-size: 20px;}
+#hours{font-size: 20px;}
+
+/* Edit */
