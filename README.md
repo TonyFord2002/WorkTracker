@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# WorkTracker App -- Final#
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description ##
 
-## Available Scripts
+I made this custom app for my Dad who owns a contractor business. He has a unique way of keeping up with work that is in dire need of updating. This application will allow him to create new jobsites then within each jobsite he can list the work he has done. There is also a way to add workers to each job and they will only show if they are assigned to that job. There are navigation links on top to easily go back to the list of all jobsites.
 
-In the project directory, you can run:
+## Application Function ##
 
-### `npm start`
+This is a full stack app that uses RESTFUL routes with MongoDB to track work done at multiple jobsites. It uses multiple technologies to complete all its functions:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* HTML
+* CSS
+* JavaScript
+* Express.js
+* Mongoose
+* MongoDB
+* Heroku
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The back end api part of this project is hosted on heroku and is fully independent from the front part of the app. You can use this link to go to the application:
 
-### `npm test`
+[Work Tracker App](https://worktrackerapp.herokuapp.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When you open the app it should look like this:
 
-### `npm run build`
+<img src='../worktracker/src/images/index.png'>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can then click on any of the names and it wil take you to another page that will show you the work done for that person and the workers that worked on that job.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src='../worktracker/src/images/show.png'>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Reflection ##
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This was a very interesting app to build for me because it will be used to help someone close to me with their business records. Going forward there are a few features I would like to add. The main feature being authentication and authorization so it can be distributed. I would also like to add theme packs that can be selected based on user input so they can choose between several themes.

@@ -20,17 +20,17 @@ function ScrollButton() {
     window.scrollTo({
       top: 0, 
       behavior: 'smooth'
-    });
-  };
+    })
+  }
   
-  window.addEventListener('scroll', toggleVisible);
+  window.addEventListener('scroll', toggleVisible)
   
   return (
     <Button>
      <FaArrowCircleUp onClick={scrollToTop} 
      style={{display: visible ? 'inline' : 'none'}} />
     </Button>
-  );
+  )
 }
   
 
