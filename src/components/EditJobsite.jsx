@@ -24,13 +24,13 @@ deleteJobsite(id)
 navigate(`/`)
 }
 return (
-<div>
+<div id='editjobsite'>
     
     <form onSubmit={editThisJobsite}>
         Name: <input type='text' name='name' defaultValue={data.name}/><br/>
         <input style={{borderRadius:'7px' }} type='submit' value='Edit Jobsite'/>
     </form>
-        <button style={{borderRadius:'7px' }} onClick={deleteThisJobsite}> Delete this Jobsite</button><br/>
+        <button style={{borderRadius:'7px', backgroundColor:'red' }} onClick={deleteThisJobsite}> Delete this Jobsite</button><br/>
 </div>
 )
 }

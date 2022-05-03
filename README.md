@@ -1,4 +1,4 @@
-# WorkTracker App -- Final#
+# WorkTracker App -- Final Project #
 
 ## Description ##
 
@@ -8,10 +8,13 @@ I made this custom app for my Dad who owns a contractor business. He has a uniqu
 
 This is a full stack app that uses RESTFUL routes with MongoDB to track work done at multiple jobsites. It uses multiple technologies to complete all its functions:
 
-* HTML
+* HTML5
 * CSS
 * JavaScript
 * Express.js
+* Nodejs
+* React.js
+* Axios
 * Mongoose
 * MongoDB
 * Heroku
@@ -30,4 +33,4 @@ You can then click on any of the names and it wil take you to another page that 
 
 ## Reflection ##
 
-This was a very interesting app to build for me because it will be used to help someone close to me with their business records. Going forward there are a few features I would like to add. The main feature being authentication and authorization so it can be distributed. I would also like to add theme packs that can be selected based on user input so they can choose between several themes.
+This was a very interesting app to build for me because it will be used to help someone close to me with their business records. Going forward there are a few features I would like to add. The main feature being authentication and authorization so it can be distributed. I would also like to add theme packs that can be selected based on user input so they can choose between several preset themes.

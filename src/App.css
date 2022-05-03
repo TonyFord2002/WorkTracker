@@ -55,6 +55,8 @@ body{background-color: #20720D;}
 
 #jobform{margin: 30px;
         text-align: center;
+        color:#FDE100;
+        font-size: 20px;
 }
 
 #workerform{text-align: justify;}
@@ -72,4 +74,30 @@ body{background-color: #20720D;}
 #rate{font-size: 20px;}
 #hours{font-size: 20px;}
 
+
 /* Edit */
+
+#editjob{
+        text-align: justify;
+        font-size: 25px;
+        padding: 20px;
+        color:#FDE100
+}
+
+/* Edit Jobsite */
+
+#editjobsite{
+        text-align: justify;
+        font-size: 25px;
+        padding: 20px;
+        color:#FDE100
+}
+
+/* Edit Worker */
+
+#editworker{
+        text-align: justify;
+        font-size: 25px;
+        padding: 20px;
+        color:#FDE100
+}
