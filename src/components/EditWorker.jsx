@@ -26,7 +26,7 @@ const deleteThisWorker = ()=>{
   deleteWorker(id)
   navigate(`/${data.jobsiteId}`)
   }
-console.log(data)
+
 return (
   <div id='editworker'>
       
