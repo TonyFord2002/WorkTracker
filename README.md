@@ -33,7 +33,7 @@ When you open the app it should look like this:
 
 You can then click on any of the names and it wil take you to another page that will show you the work done for that person and the workers that worked on that job.
 
-![Jobsite Page](/worktracker/src/images/show.png)
+<img src='../worktracker/src/images/show.png'/>
 
 ## Reflection ##
 
