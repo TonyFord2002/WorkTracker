@@ -25,11 +25,11 @@ The back end api part of this project is hosted on heroku and is fully independe
 
 When you open the app it should look like this:
 
-<img src='../worktracker/src/images/index.png'>
+![Index](/worktracker/src/images/index.png)
 
 You can then click on any of the names and it wil take you to another page that will show you the work done for that person and the workers that worked on that job.
 
-<img src='../worktracker/src/images/show.png'>
+![Jobsite Page](/worktracker/src/images/show.png)
 
 ## Reflection ##
 
